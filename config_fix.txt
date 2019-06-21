@@ -12,3 +12,7 @@
 - change Gemfile.lock:
   -- all occurances of 5.1.6 to 5.2.3
 
+- bundle update
+- bundle install --without production
+
+- run git add, git commit, and git push origin master
