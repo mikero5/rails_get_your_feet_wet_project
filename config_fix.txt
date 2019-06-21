@@ -16,3 +16,6 @@
 - bundle install --without production
 
 - run git add, git commit, and git push origin master
+
+- FINALLY! : git push heroku master
+
