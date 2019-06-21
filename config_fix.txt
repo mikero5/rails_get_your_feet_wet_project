@@ -1,0 +1,14 @@
+- heroku buildpacks:add --index 2 https://github.com/heroku/heroku-buildpack-ruby
+
+- remove bootsnap line from config/boot.rb
+
+- run git add, git commit, and git push origin master
+
+- change Gemfile line:
+  gem 'rails',        '5.1.6'
+  TO:
+  gem 'rails',        '5.2.3'
+
+- change Gemfile.lock:
+  -- all occurances of 5.1.6 to 5.2.3
+
